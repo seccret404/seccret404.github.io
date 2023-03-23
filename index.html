@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMI</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body><div class="form">
+    <h3>Kalkulator BMI</h3>
+    <P>Berat badan ideal adalah imian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang
+        penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat.Bagiamana denganmu?
+        Yuk, hitung sekarang di kalkulator BMI.
+    </P>
+    <br>
+        <div class="data">
+        <b>Jenis Kelamin</b><br>
+        <input type="radio" id="pria">
+        <label for="pria">Pria</label>
+        <input type="radio" id="pria">
+        <label for="pria">Pria</label><br>
+        <br>
+        <b>Berat Badan (kg)</b><br>
+        <input type="number" name="" id="berat"><br>
+        <b>Usia (tahun)</b><br>
+        <input type="number"><br>
+        <b>Tinggi badan (cm)</b><br>
+        <input type="number" name="" id="tinggi"><br><br>
+        <button onclick="hitung()">Hitung BMI</button>
+      <button type="reset">Reset</button>
+    </div>
+    <div class="des">
+        <h4>Keunggulan Fitur</h4>
+        <ol>Mengitung berat badan</ol>
+        <ol>menentukan kategori berat badan ideal atau tidak</ol>
+        <ol>Mempersiapkan program penurunan berat badan</ol>
+        <br><br>
+        <p>Kalkulator ini hanya  boleh digunakan oleh orang dewasa (wanita hamil atau menyusui
+            tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil
+        berdasarkan nilainya selain  berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+        <br>
+        <p>Kalkulator akan memberi anda gambaran tentang perbandingan berat badan  anda dengan 
+            nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan (dalam kilogram)
+            dibagi dengan kuadrat tinggi badan anda (dalam meter) atau BMI =Kg/M
+        </p>
+    </div>
+    
+</div>
+    <div class="hasil">
+        <p>Hasil</p>
+        <p id="keterangan1"></p>
+        <p id="hasil"></p>
+        <p id="keterangan2"></p>
+       <div class="btn-download" id="btnunduh"></div>
+        <p id="value"></p>
+        <P id="deskripsi1"></P>
+        <div class="btn" id="btn"></div>
+        <p id="deskripsi2"></p>
+        <br><br>
+        <p id="penyakit">
+
+        </p>
+        <div class="btnkonsultasi" id="btnkonsultasi"></div>
+
+
+    </div>
+	
+    <script src="index.js"></script>
+</body>
+
+</html>
